@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Marci Metzger - Pahrump Realtor | The Ridge Realty Group</title>
+  <meta name="description" content="Marci Metzger - The Ridge Realty Group. Pahrump Realtor with nearly 3 decades of experience. Call (206) 919-6886."/>
+  <meta name="author" content="Marci Metzger" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAV -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-container">
+      <img id="logo" src="public/images/logo-2.png" alt="Marci Metzger Homes logo" class="logo">
+
+      <div id="navMenu" class="nav-menu">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        
+        <h2 class="hero-subtitle">MARCI METZGER - THE RIDGE REALTY GROUP</h2>
+        <h1 id="hero-heading" class="hero-title">PAHRUMP REALTOR</h1>
+    
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:+12069196886">CALL NOW</a>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ABOUT -->
+    <section id="about" class="section bg-muted" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="public/images/marci-photo.jpg" alt="Marci Metzger portrait" class="rounded shadow-elegant">
+          </div>
+
+          <div class="about-content">
+            <h2 id="about-heading" class="section-title">MARCI METZGER</h2>
+            <h3 class="accent-title">REALTOR FOR NEARLY 3 DECADES!</h3>
+            <p class="text-muted">With nearly 30 years of experience in the real estate industry, Marci Metzger has established herself as a trusted name in Pahrump, Nevada. Dedicated to client satisfaction and strong local market knowledge.</p>
+
+            <a class="phone-link" href="tel:+12069196886">(206) 919-6886</a>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <div class="card">
+            <img src="public/images/sold-homes.jpg" alt="Top Residential Sales" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Top Residential Sales Last 5 Years</h4>
+              <p class="text-muted">We helped nearly 90 clients in 2021, and closed 28.5 million in sales — continually improving to get you top dollar.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/images/list-home.jpg" alt="Don't Just List it" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Don't Just List it...</h4>
+              <p class="text-muted">Get it SOLD! We use every avenue to reach buyers and maximize your sale price.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/images/guide-buyers.jpg" alt="Guide to Buyers" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Guide to Buyers</h4>
+              <p class="text-muted">Market analysis, upgrade suggestions, trusted contractors — your buying guide from A to Z.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH -->
+    <section class="section bg-white" aria-labelledby="search-heading">
+      <div class="container">
+        <h2 id="search-heading" class="section-title text-center">Find Your Dream Home</h2>
+
+        <div class="search-container">
+          <div class="search-form">
+            <h3 class="search-title">Search Listings</h3>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input id="location" class="input" type="text" placeholder="Enter location">
+              </div>
+
+              <div class="form-group">
+                <label for="bedrooms">Bedrooms</label>
+                <select id="bedrooms" class="input">
+                  <option value="">Any Number</option>
+                  <option>Studio</option><option>1+</option><option>2+</option><option>3+</option><option>4+</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bathrooms">Bathrooms</label>
+                <select id="bathrooms" class="input">
+                  <option value="">Any Number</option>
+                  <option>1+</option><option>2+</option><option>3+</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="minPrice">Min Price</label>
+                <input id="minPrice" class="input" type="number" placeholder="$">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="maxPrice">Max Price</label>
+                <input id="maxPrice" class="input" type="number" placeholder="$">
+              </div>
+            </div>
+
+            <button id="searchBtn" class="btn btn-primary btn-full" type="button">SEARCH NOW</button>
+          </div>
+
+          <div class="logos-container">
+            <img src="public/images/mls-logo.png" alt="MLS" class="partner-logo">
+            <img src="public/images/equal-housing.png" alt="Equal Housing" class="partner-logo">
+            <img src="public/images/realtor-logo.jpg" alt="Realtor" class="partner-logo">
+            <img src="public/images/chamber-logo.jpg" alt="Chamber" class="partner-logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section bg-muted" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 id="gallery-heading" class="section-title text-center">Photo Gallery</h2>
+
+        <div class="gallery-carousel">
+          <div class="carousel-container">
+            <button id="carouselPrev" class="carousel-btn carousel-prev" aria-label="Previous">‹</button>
+            <div id="carouselTrack" class="carousel-track">
+              <img src="public/images/gallery-1.jpg" alt="Property 1" class="carousel-image active">
+              <img src="public/images/gallery-2.jpg" alt="Property 2" class="carousel-image">
+              <img src="public/images/gallery-3.jpg" alt="Property 3" class="carousel-image">
+              <img src="public/images/gallery-4.jpg" alt="Property 4" class="carousel-image">
+              <img src="public/images/gallery-5.jpg" alt="Property 5" class="carousel-image">
+            </div>
+            <button id="carouselNext" class="carousel-btn carousel-next" aria-label="Next">›</button>
+          </div>
+
+          <div class="thumbnails">
+            <div class="thumbnail active" data-index="0"><img src="public/images/gallery-1.jpg" alt=""></div>
+            <div class="thumbnail" data-index="1"><img src="public/images/gallery-2.jpg" alt=""></div>
+            <div class="thumbnail" data-index="2"><img src="public/images/gallery-3.jpg" alt=""></div>
+            <div class="thumbnail" data-index="3"><img src="public/images/gallery-4.jpg" alt=""></div>
+            <div class="thumbnail" data-index="4"><img src="public/images/gallery-5.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section bg-white" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading" class="section-title text-center">Our Services</h2>
+
+        <div class="cards-grid">
+          <div class="card">
+            <img src="public/images/service-1.jpg" alt="Real Estate Done Right" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Real Estate Done Right</h4>
+              <p class="text-muted">Buy, sell, invest — our team guides you professionally from start to finish.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/images/service-2.jpg" alt="Commercial & Residential" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Commercial & Residential</h4>
+              <p class="text-muted">All property types — condos, single-family, luxury properties and more.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/images/service-3.jpg" alt="Rely on Expertise" class="card-image">
+            <div class="card-content">
+              <h4 class="card-title">Rely on Expertise</h4>
+              <p class="text-muted">We connect you with lenders and contractors to simplify the process.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-muted" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-title text-center">Call or Visit</h2>
+
+        <div class="contact-grid">
+          <div>
+            <h3 class="contact-title">Send Message</h3>
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" class="input" type="text">
+              </div>
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input id="email" class="input" type="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="input" rows="5"></textarea>
+              </div>
+              <button class="btn btn-primary btn-full" type="submit">SEND</button>
+            </form>
+
+            <p class="disclaimer">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms</a> apply.</p>
+          </div>
+
+          <div class="contact-info">
+            <h3 class="contact-title">Marci Metzger - THE RIDGE REALTY GROUP</h3>
+
+            <div class="info-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+            </div>
+
+            <div class="info-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a class="phone-number" href="tel:+12069196886">(206) 919-6886</a>
+            </div>
+
+            <div class="info-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <div>
+                <h4 class="office-hours-title">Office Hours</h4>
+                <p>Open daily: 8:00 am - 7:00 pm</p>
+                <p class="text-small">Appointments outside hours available on request.</p>
+              </div>
+            </div>
+
+            <div class="social-links-section">
+              <h4 class="connect-title">Connect With Us</h4>
+              <div class="social-links">
+                <a class="social-link" href="https://www.facebook.com/MarciHomes/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a class="social-link" href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8"/></svg>
+                </a>
+                <a class="social-link" href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="social-links" aria-hidden="true">
+        <a class="social-link" href="https://www.facebook.com/MarciHomes/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8"/></svg>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/></svg>
+        </a>
+      </div>
+
+      <p class="copyright">Copyright © <span id="currentYear"></span> Developed by Lucky Kali - All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Script (keep your script.js) -->
+  <script src="script.js"></script>
+</body>
+</html>
